@@ -48,10 +48,11 @@ To install the dependencies, run the following command:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Reproducibility
 - **Code Repository**: [https://github.com/SimonDeVos/turnover_prediction/tree/master/data](https://github.com/SimonDeVos/turnover_prediction)
-- - **Environment**: Python 3.12.7, required dependencies listed in `requirements.txt`.
+- **Environment**: Python 3.12.7, required dependencies listed in `requirements.txt`.
 - **Setup**:
   - Used default hyperparameters as described in the paper.
   - Followed the paper's preprocessing steps for WoE encoding, normalization, and cross-validation.
