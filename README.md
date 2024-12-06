@@ -7,7 +7,7 @@
   - Uploaded and configured the `main.py` file to ensure proper execution of the experiment.
   - Results piece (not finished)
   - Contributed to the **README.md** file by documenting the reproduction steps and observations.
-  - Prepared the **Final Project Template**
+  - Prepared the **Final Project Template** (not finished)
   
 - **Roshni Sanjay Pamak**:
   - [Please add your work here.]
