@@ -1,8 +1,8 @@
 # AIDI1002_Final_Project
 
 ## Group Member Names:
-- Fanmei Wang
-- Roshni Sanjay Pamak
+- Fanmei Wang, who selected the journal article, reproduced the Logistic Regression (LR) model on the IBM dataset, prepared the final project template (background, etc.)
+- Roshni Sanjay Pamak, who ...
 
 ## Project Overview
 This project reproduces the experimental section of the paper *Predicting Employee Turnover: Scoping and Benchmarking the State-of-the-Art*, focusing on the performance of the Logistic Regression (LR) model on the IBM dataset.
