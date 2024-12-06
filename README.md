@@ -17,6 +17,14 @@ This project reproduces the experimental section of the paper *Predicting Employ
 3. Run `main.py` and generate the results.
 
 ## Experimental Results
+The following results were obtained using the Logistic Regression (LR) model on the IBM dataset:
+
 - **Accuracy**: 0.8388
 - **AUC-ROC**: 0.6430
-- **F1-Score**: 0.000
+- **AUC-PR**: 0.3546
+- **F1-Score**: 0.0000
+- **Precision**: 0.0000
+- **Recall**: 0.0000
+- **Specificity**: 0.0000
+- **H-Measure**: 0.0000
+- **Brier Score**: 0.1334
