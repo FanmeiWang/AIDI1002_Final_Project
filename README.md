@@ -60,7 +60,7 @@ pip install -r requirements.txt
   - Used default hyperparameters as described in the paper.
   - Followed the paper's preprocessing steps for WoE encoding, normalization, and cross-validation.
 
-## Observations
+## Observations (Reproduction)
 
 ### **Accuracy**
 - **Experiment result**: 0.8388
