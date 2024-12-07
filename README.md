@@ -2,12 +2,13 @@
 
 ## Group Member Names:
 - **Fanmei Wang**:
-  - Searched, selected, and confirmed the journal article *Predicting Employee Turnover: Scoping and Benchmarking the State-of-the-Art* for the project.
-  - Reproduced the Logistic Regression (LR) model on the IBM dataset as described in the paper, including running experiments and generating results.
-  - Uploaded and configured the `main.py` file to ensure proper execution of the experiment.
-  - Results piece (not finished)
-  - Contributed to the **README.md** file by documenting the reproduction steps and observations.
-  - Prepared the **Final Project Template** (not finished)
+  - Searched, selected, and reviewed the journal article **Predicting Employee Turnover: Scoping and Benchmarking the State-of-the-Art** from the journal **Business & Information Systems Engineering** for the project.
+  - Cloned the GitHub repository provided by the authors to reproduce the experiments.
+  - Reproduced the Logistic Regression (LR) model on the IBM dataset using the configurations outlined in the paper.
+  - Adapted and configured `main.py` for running experiments, including dataset selection, hyperparameter tuning, and model-specific settings.
+  - Executed experiments and generated evaluation metrics to validate the paper's findings.
+  - Set up the experimental environment by installing dependencies using the provided `requirements.txt` and ensuring compatibility with Python 3.12.7.
+  - Documented reproduction steps in the README and prepared the final project template.  
   
 - **Roshni Sanjay Pamak**:
   - [Please add your work here.]
