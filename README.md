@@ -65,31 +65,31 @@ pip install -r requirements.txt
 
 ### **Accuracy**
 - **Experiment result**: 0.8388
-- **Paper**: Section 5.1 mentions that Logistic Regression is one of the better-performing models on the IBM dataset in terms of accuracy, though no specific value is provided. Your result aligns with this trend.
+- **Paper**: Section 5.1 mentions that Logistic Regression is one of the better-performing models on the IBM dataset in terms of accuracy, though no specific value is provided. My result aligns with this trend.
 
 ---
 
 ### **AUC-ROC**
 - **Experiment result**: 0.643
-- **Paper**: Section 5.1 and Figure 2 indicate that Logistic Regression has relatively low AUC-ROC on the IBM dataset, comparable to other non-ensemble models. Your result supports this observation.
+- **Paper**: Section 5.1 and Figure 2 indicate that Logistic Regression has relatively low AUC-ROC on the IBM dataset, comparable to other non-ensemble models. My result supports this observation.
 
 ---
 
 ### **F1-Score**
 - **Experiment result**: 0.0
-- **Paper**: Figure 2 shows that Logistic Regression struggles to predict the minority class (Class 1) effectively, resulting in a poor F1-Score on imbalanced datasets like IBM. This aligns perfectly with your result.
+- **Paper**: Figure 2 shows that Logistic Regression struggles to predict the minority class (Class 1) effectively, resulting in a poor F1-Score on imbalanced datasets like IBM. This aligns perfectly with my result.
 
 ---
 
 ### **Precision**
 - **Experiment result**: 0.0
-- **Paper**: While the paper does not provide specific precision values, Section 5.1 mentions that Logistic Regression typically performs better on the majority class (Class 0). Figure 2 also indicates this trend, and your result confirms it.
+- **Paper**: While the paper does not provide specific precision values, Section 5.1 mentions that Logistic Regression typically performs better on the majority class (Class 0). Figure 2 also indicates this trend, and my result confirms it.
 
 ---
 
 ### **Recall**
 - **Experiment result**: 0.0
-- **Paper**: Figure 2 illustrates that Logistic Regression has significantly lower recall for the minority class (Class 1), likely due to the lack of data balancing techniques. Your result reflects this issue.
+- **Paper**: Figure 2 illustrates that Logistic Regression has significantly lower recall for the minority class (Class 1), likely due to the lack of data balancing techniques. My result reflects this issue.
 
 ---
 
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 ### **AUC-PR**
 - **Experiment result**: 0.3546
-- **Paper**: The paper discusses that Logistic Regression shows moderate AUC-PR on datasets like IBM, which aligns with your experimental results.
+- **Paper**: The paper discusses that Logistic Regression shows moderate AUC-PR on datasets like IBM, which aligns with my experimental results.
 
 ---
 
@@ -113,7 +113,7 @@ pip install -r requirements.txt
 
 ### **Brier Score**
 - **Experiment result**: 0.1334
-- **Paper**: Section 5.1 mentions that Logistic Regression has moderate calibration ability, often reflected in its Brier Score. Your result is consistent with this observation.
+- **Paper**: Section 5.1 mentions that Logistic Regression has moderate calibration ability, often reflected in its Brier Score. My result is consistent with this observation.
 
 ---
 
