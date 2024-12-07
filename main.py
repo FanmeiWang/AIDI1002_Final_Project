@@ -6,7 +6,7 @@ from experiments import experiment
 import json
 
 # Set project directory:
-DIR = r'C:/Users/wangf/turnover_prediction/results'
+DIR = r'C:/path/turnover_prediction/results'
 
 # Specify experiment configuration
 settings = {
