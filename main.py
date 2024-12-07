@@ -1,3 +1,10 @@
+import os
+
+project_dir = r"C:\Users\Public\turnover_prediction"
+os.chdir(project_dir)
+
+print("Current working directory:", os.getcwd())
+
 
 import datetime
 import sys
