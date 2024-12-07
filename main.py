@@ -1,7 +1,7 @@
 
 import datetime
 import sys
-sys.path.append('C:/path/turnover_prediction')
+sys.path.append('C:/Users/Public/turnover_prediction')
 from experiments import experiment
 import json
 
