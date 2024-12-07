@@ -28,7 +28,7 @@ This project reproduces the experimental section of the paper *Predicting Employ
 4. **Run Experiment**: Executed `main.py` to reproduce the results.
 5. **Results Generation**: Collected evaluation metrics for the Logistic Regression model.
 
-## Reproduced Results (Reproduction)
+## Results (Reproduction)
 The reproduced results from the IBM dataset are as follows:
 - **Accuracy**: 0.8388
 - **AUC-ROC**: 0.6430
