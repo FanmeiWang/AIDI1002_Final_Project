@@ -19,12 +19,7 @@ This project reproduces the experimental section of the paper *Predicting Employ
 - **Name**: IBM Dataset
 - **Description**: The dataset contains employee information and attrition status, aimed at analyzing factors that influence employee turnover.
 
-## Experimental Steps
-1. Download the code provided by the paper.
-2. Configure the experimental parameters (e.g., IBM dataset and Logistic Regression method).
-3. Run `main.py` and generate the results.
-
-## Experiment Steps
+## Experiment Steps (Reproduction)
 1. **Code Download**: Cloned the code repository provided by the paper.
 2. **Configuration**: Set the dataset to `IBM` and enabled the Logistic Regression (`lr`) method in the configuration file (`main.py`).
 3. **Environment Setup**: 
@@ -33,7 +28,7 @@ This project reproduces the experimental section of the paper *Predicting Employ
 4. **Run Experiment**: Executed `main.py` to reproduce the results.
 5. **Results Generation**: Collected evaluation metrics for the Logistic Regression model.
 
-## Reproduced Results
+## Reproduced Results (Reproduction)
 The reproduced results from the IBM dataset are as follows:
 - **Accuracy**: 0.8388
 - **AUC-ROC**: 0.6430
@@ -48,9 +43,9 @@ The reproduced results from the IBM dataset are as follows:
 ## System Requirements
 - **Python Version**: Python 3.12.7
 - **Required Libraries**:
-  - `numpy==1.23.5`
-  - `pandas==1.5.3`
-  - `scikit-learn==1.2.1`
+  - `numpy==1.26.4`
+  - `pandas==2.2.2`
+  - `scikit-learn==1.5.1`
 
 To install the dependencies, run the following command:
 
