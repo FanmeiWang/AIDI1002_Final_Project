@@ -64,10 +64,10 @@ pip install -r requirements.txt
 3. **Run the main script** to train and evaluate the model:
 
 ```bash
-python main.py
+python main2.py
 ```
 
-### **Explanation of main.py**
+### **Explanation of main2.py**
 The `main2.py` script is the entry point of the project and performs the following steps:
 1. Loads and preprocesses the data.
 2. Trains a machine learning model using Random Forest Classifier.
