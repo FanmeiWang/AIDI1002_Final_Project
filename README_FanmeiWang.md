@@ -15,11 +15,32 @@ This project reproduces experiments from the paper *Predicting Employee Turnover
 
 ## Objectives
 - Validate the performance of the LR model on the IBM dataset.
-- Explore model performance across various metrics like Accuracy, Precision, Recall, and more.
-- Gain insights into the challenges posed by imbalanced datasets in predictive modeling.
+- Examine model performance across various metrics like Accuracy, Precision, Recall, etc.
 
 ## Dataset
-The IBM dataset contains 1,470 records and 35 features, including employee demographics, work-related factors, and attrition status. It is synthetic and publicly available.
+The dataset used for this project is the IBM dataset (public), including 1,470 records with 35 features, such as employee demographics, work-related factors, attrition status, etc. It is designed to help identify key factors influencing employee turnover.
+
+## Steps Followed
+
+**Step 1: Cloning**
+- Accessed the GitHub repository provided by the authors and cloned it into the local environment. 
+- After cloning, updated the path configurations to match with the local folder structure and ensure that the codes can be executed locally.
+
+**Step 2: Configuration of the Dataset**
+- Analyzed the dataset setup requirements and determined to use the IBM dataset as the data source for this reproduction task.
+- The experiment configuration file was modified to enable only the Logistic Regression (LR) model, whereas the rest of the models were disabled.
+
+**Step 3: Environment Setup**
+- Created a virtual environment in Python locally and installed all required dependencies, such as NumPy, Pandas, and scikit-learn, by using the requirements.txt file.
+- Checked the package versions installed to make sure that they meet the running requirements described.
+
+**Step 4: Experiment Execution**
+- Ran the main experiment script to retrieve the results, including but not limited to Accuracy, Precision, Recall, F1-Score, etc.
+- The output was then saved in a text file.
+
+**Step 5: Evaluation**
+- The output metrics were documented and then compared against the results reported in the paper.  
+- Checked whether my reproduction results were in line with the findings reported in the paper.
 
 ## Key Contributions
 - **Reproduction:** Replicated the LR model experiment using the provided configurations, focusing on the IBM dataset.
