@@ -91,10 +91,10 @@ pip install pandas scikit-learn matplotlib seaborn numpy
 ## **How to Run**
 1. Clone or download this repository.
 2. Install the required dependencies by running `pip install -r requirements.txt` (if you have a requirements file).
-3. Run the `main.py` script to load the data, train the model, and evaluate the results.
+3. Run the `main2.py` script to load the data, train the model, and evaluate the results.
 
 ```bash
-python main.py
+python main2.py
 ```
 
 ---
