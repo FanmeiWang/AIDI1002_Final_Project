@@ -62,7 +62,7 @@ Main Project/
 │   ├── preprocess.py    # Script for loading, cleaning, and preprocessing the data
 │   ├── train.py         # Script for model training and hyperparameter tuning
 │   ├── evaluate.py      # Script for model evaluation and result analysis
-├── main.py              # Main script that ties everything together
+├── main2.py              # Main script that ties everything together
 └── README.md            # Project documentation
 ```
 
@@ -78,11 +78,11 @@ pip install -r requirements.txt
 3. **Run the main script** to train and evaluate the model:
 
 ```bash
-python main.py
+python main2.py
 ```
 
 ### **Explanation of main.py**
-The `main.py` script is the entry point of the project and performs the following steps:
+The `main2.py` script is the entry point of the project and performs the following steps:
 1. Loads and preprocesses the data.
 2. Trains a machine learning model using Random Forest Classifier.
 3. Evaluates the model using various metrics like accuracy, precision, recall, and F1-score.
@@ -153,7 +153,7 @@ This project reproduces the experimental section of the paper *Predicting Employ
 3. **Environment Setup**: 
    - **Python Version**: Python 3.12.7
    - **Dependencies**: Installed required packages from `requirements.txt`.
-4. **Run Experiment**: Executed `main.py` to reproduce the results.
+4. **Run Experiment**: Executed `main2.py` to reproduce the results.
 5. **Results Generation**: Collected evaluation metrics for the Logistic Regression model.
 
 ## Results (Reproduction)
