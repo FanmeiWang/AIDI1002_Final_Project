@@ -11,7 +11,134 @@
   - Documented reproduction steps in the README and prepared the final project template.  
   
 - **Roshni Sanjay Pamak**:
-  - [Please add your work here.]
+
+# Employee Attrition Prediction
+
+## **Project Overview**
+This project is designed to predict employee attrition using machine learning techniques, specifically classification models. The dataset contains information about employees in a company, including various attributes like job role, department, age, years at the company, and whether the employee left the company (attrition). The goal is to create a model that can help businesses predict and manage employee turnover.
+
+## **Dataset**
+The dataset used in this project is derived from the IBM Employee Attrition dataset and contains employee-related data such as age, department, job role, years at the company, and whether they left the company.
+
+### **Dataset Details**
+- **Source**: [IBM Employee Attrition Dataset](https://github.com/SimonDeVos/turnover_prediction/blob/master/data/ibm.csv)
+- **Target Variable**: `Attrition` (binary classification: 'Yes' if the employee left the company, 'No' if the employee stayed)
+  
+### **Features**
+- `Age`: The age of the employee.
+- `JobRole`: The role of the employee within the company.
+- `Department`: The department in which the employee works.
+- `Education`: The education level of the employee.
+- `YearsAtCompany`: The number of years the employee has worked at the company.
+- `DistanceFromHome`: The distance from the employee's home to the company.
+- `Attrition`: The target variable indicating whether the employee left the company or not.
+
+## **Technologies Used**
+- **Python**: Programming language for implementing the solution.
+- **Libraries**:
+  - `pandas`: For data manipulation and loading the dataset.
+  - `scikit-learn`: For machine learning model training, evaluation, and metrics.
+  - `matplotlib`, `seaborn`: For visualizing data and evaluation results.
+  - `numpy`: For numerical operations.
+- **Model**: Random Forest Classifier (with optional hyperparameter tuning using GridSearchCV).
+
+## **Installation**
+
+### **Requirements**
+Before running the project, make sure to have the following dependencies installed:
+
+```bash
+pip install pandas scikit-learn matplotlib seaborn numpy
+```
+
+### **File Structure**
+The project is organized into the following directory structure:
+
+```
+Main Project/
+├── data/
+│   └── ibm.csv          # The dataset file (IBM Employee Attrition Dataset)
+├── scripts/
+│   ├── preprocess.py    # Script for loading, cleaning, and preprocessing the data
+│   ├── train.py         # Script for model training and hyperparameter tuning
+│   ├── evaluate.py      # Script for model evaluation and result analysis
+├── main.py              # Main script that ties everything together
+└── README.md            # Project documentation
+```
+
+## **How to Run**
+
+1. **Clone or download** this repository.
+2. **Install the required dependencies** by running:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the main script** to train and evaluate the model:
+
+```bash
+python main.py
+```
+
+### **Explanation of main.py**
+The `main.py` script is the entry point of the project and performs the following steps:
+1. Loads and preprocesses the data.
+2. Trains a machine learning model using Random Forest Classifier.
+3. Evaluates the model using various metrics like accuracy, precision, recall, and F1-score.
+4. Displays the results, including a confusion matrix.
+
+## **Scripts Overview**
+
+### **preprocess.py**
+- **Functions**:
+  - `load_data()`: Loads the dataset from a specified CSV file.
+  - `preprocess_data()`: Handles missing values, encodes categorical features, and scales numerical features.
+  - `split_data()`: Splits the data into training and test sets.
+  
+### **train.py**
+- **Functions**:
+  - `train_model()`: Trains the model using the training data.
+  - `hyperparameter_tuning()`: (optional) Tunes the hyperparameters of the model using GridSearchCV.
+
+### **evaluate.py**
+- **Functions**:
+  - `evaluate_model()`: Evaluates the model on the test data, prints classification metrics, and displays a confusion matrix.
+
+## **Model Evaluation**
+The model is evaluated based on the following metrics:
+- **Accuracy**: The proportion of correct predictions.
+- **Precision**: The proportion of true positives out of all predicted positives.
+- **Recall**: The proportion of true positives out of all actual positives.
+- **F1 Score**: The harmonic mean of precision and recall.
+- **Confusion Matrix**: A matrix that shows the number of true positives, true negatives, false positives, and false negatives.
+
+## **Sample Output**
+
+After running the `main2.py` script, the following will be displayed:
+
+1. **Classification Report**: It will show the precision, recall, F1-score, and support for each class (`Yes` and `No`).
+2. **Confusion Matrix**: A heatmap visualization of the confusion matrix showing how well the model classified employees.
+
+## **Results**
+Example model results:
+```
+Accuracy: 85.3%
+Precision: 82.1%
+Recall: 87.4%
+F1 Score: 84.7%
+```
+
+### **Confusion Matrix**
+- The confusion matrix will provide a summary of how well the model is performing, showing true positives, false positives, true negatives, and false negatives.
+
+## **Future Work**
+- **Model Comparison**: Try other classification models such as Logistic Regression, Gradient Boosting, or XGBoost for potentially better performance.
+- **Hyperparameter Tuning**: Explore hyperparameter tuning to improve model performance.
+- **Feature Engineering**: Additional features such as salary, employee feedback, or other demographic information could be included to improve the model.
+- **Real-World Application**: Consider deploying the model for real-time predictions or integrating it with HR systems for practical use.
+
+
     
 ## Project Overview
 This project reproduces the experimental section of the paper *Predicting Employee Turnover: Scoping and Benchmarking the State-of-the-Art*, focusing on the performance of the Logistic Regression (LR) model on the IBM dataset.
